@@ -1,0 +1,11 @@
+Admin_accessKeys.csv
+Admin_credentials.csv
+
+scripts/fetch_schedule/*
+!scripts/fetch_schedule/*.zip
+!scripts/fetch_schedule/*.py
+
+infrastructure/.terraform/
+infrastructure/terraform.tfstate
+infrastructure/terraform.tfstate.backup
+infrastructure/.terraform.lock.hcl
